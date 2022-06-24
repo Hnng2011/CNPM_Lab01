@@ -63,7 +63,7 @@ body {
   will-change: transform;
   z-index: 0;
   margin-left: 7px;
-  background-color: ;
+  margin-right: auto;
 }
 
 .coolBeans::after {
@@ -85,7 +85,7 @@ body {
 
 .coolBeans:hover::after {
   transform: translate(0, 0);
-  
+
 }
 
 .coolBeans:hover {
