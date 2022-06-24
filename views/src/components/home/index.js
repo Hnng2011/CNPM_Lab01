@@ -4,7 +4,7 @@ import './index.css';
 
 import Navbar from './section/navbar';
 import Content from "./section/dashboard";
-
+import Image from "./section/introduce";
 
 export default class Home extends Component {
   constructor(props) {
@@ -32,6 +32,7 @@ export default class Home extends Component {
       <>
         <Navbar />
         <Content />
+        <Image />
       </>
     );
   };

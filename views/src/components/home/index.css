@@ -207,7 +207,15 @@ nav ul li span:nth-child(4) {
   --n: 4;
 }
 
+.frameimg {
+  display: inline;
+  content: url(../../PicndVid/001Theme.jpg);
+  margin-bottom: 20px;
+  height: 300px;
+  width: 300px;
+  margin-right: 150px;
 
+}
 
 /* Featurettes
 ------------------------- */
