@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: New, sans-serif;
+}
+
+input,
+button {
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.Temp {
+    height: 100vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(96, 95, 95, 0.4);
+    padding-left: 40%;
+}
+
+form {
+    display: block;
+    position: relative;
+
+}
+
+form::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: 1;
+    background-color: orange;
+    border-radius: 5%;
+    width: 41.2%;
+}
+
+form .form-inner {
+    position: relative;
+    display: block;
+    background-color: white;
+    padding: 15px;
+    z-index: 2;
+    border-radius: 5%;
+    width: 40%;
+}
+
+form .form-inner .form-group {
+    display: block;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+form .form-inner .form-group label {
+    display: block;
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 5px;
+    transition: o.4s;
+}
+
+form .form-inner .form-group:focus-within label {
+    color: #fE4880;
+}
+
+form .form-inner .form-group input {
+    display: block;
+    width: 112%;
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+form .form-inner .form-group input:focus {
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+form .form-inner input[type="submit"],
+.welcome button {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.welcome {
+    width: 100%;
+    max-width: 480px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px 30px;
+}
+
+.welcome h2 {
+    color: #888;
+    font-size: 28px;
+    font-weight: 500px;
+    margin-bottom: 30px;
+    background-color: rgba(130, 129, 129, 0.518);
+}
+
+.close {
+    display: flex;
+    padding-left: 0%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    cursor: pointer;
+    font-size: 20px;
+    padding-top: 15%;
+    padding-left: 32%;
+    border-radius: 30px;
+    border-radius: 10%;
+    color: whitesmokes;
+}
+
+.close:hover {
+    color: rgba(117, 117, 117, 0.558);
+}
+
+.fg {
+    padding-left: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.fg:hover {
+    color: rgba(117, 117, 117, 0.558);
+}
+
+.gg {
+    font-size: 30px;
+    padding-left: 5%;
+    padding-top: 5%;
+    display: block;
+}
+
+.None {
+    display: absolute;
+    font-size: 20px;
+    cursor: pointer;
+    position: fixed;
+    padding-left: 20px;
+}
+
+.gg {
+    font-size: 20px;
+    position: sticky;
+    justify-content: center;
+}
